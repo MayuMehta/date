@@ -27,6 +27,12 @@
             no.style.left=i+"px";
             no.style.top=j+"px";
         })
+        no.addEventListener("click",function(){
+            let i=Math.floor(Math.random()*500)+1;
+            let j=Math.floor(Math.random()*50)+1;
+            no.style.left=i+"px";
+            no.style.top=j+"px";
+        })
 
         document.getElementById('done').addEventListener('click',function(){
             console.log(date);
